@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="MY APP"
+        android:textColor="#2196F3"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="148dp"
+        android:layout_height="65dp"
+        android:background="#00BCD4"
+        android:fontFamily="sans-serif-black"
+        android:text="ENVIAR"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:iconTint="#CDDC39"
+        app:rippleColor="#3F51B5"
+        app:strokeColor="#3F51B5"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="636dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Nombre"
+        android:textColor="#00BCD4"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Apellido"
+        android:textColor="#00BCD4"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="135dp"
+        android:layout_height="147dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="86dp"
+        tools:srcCompat="@drawable/weld" />
+
+    <CalendarView
+        android:id="@+id/calendarView2"
+        android:layout_width="292dp"
+        android:layout_height="305dp"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Usuario"
+        android:textColor="#00BCD4"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="212dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
